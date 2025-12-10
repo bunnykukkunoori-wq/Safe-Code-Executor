@@ -5,9 +5,9 @@
 • This project demonstrates the real-world risks of running user code and how Docker can be used to apply  basic sandboxing and security limits.
 
 # Project Overview
-• The Safe Code Executor is a secure web service that allows users to         submit and run untrusted code inside isolated Docker containers.
+• The Safe Code Executor is a secure web service that allows users to submit and run untrusted code inside isolated Docker containers.
 
-• It ensures safety, reliability, and resource control while providing a      simple API and optional web UI for interacting with the system.
+• It ensures safety, reliability, and resource control while providing a simple API and optional web UI for interacting with the system.
 
 • The project is designed to teach:
 
@@ -71,6 +71,16 @@
 
    • friendly errors
 
+# Create & Activate Virtual Environment
+
+## 1. Create a Virtual Environment
+```
+python -m venv venv
+```
+## 2. Activate the Virtual Environment
+```
+venv\Scripts\activate
+```
 
 # Project Structure
 ```
@@ -81,7 +91,6 @@ safe-code-executor/
 ├── Dockerfile
 ├── templates/
 │ └── index.html
-├── temp/
 ├── README.md
 ```
 
@@ -286,6 +295,5 @@ docker ps
 
 Bunny Kukkunoori
 
-Developer — DevOps | Docker | Backend Engineering
-
 GitHub: github.com/bunnykukkunoori-wq
+
