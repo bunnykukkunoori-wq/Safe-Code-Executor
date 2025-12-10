@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Safe Code Executor</title>
+</head>
+<body>
+    <h2> Safe Code Executor</h2>
+
+    <form id="form">
+        <textarea id="code" rows="10" cols="70">print("Hello World")</textarea><br><br>
+        <button type="submit">Run Code</button>
+    </form>
+
+    <h3>Output:</h3>
+    <pre id="output"></pre>
+
+    <script>
+        document.getElementById("form").onsubmit = async function (e) {
+            e.preventDefault();
+
+            const code = document.getElementById("code").value;
+
+            const res = await fetch("/run", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ code })
+            });
+
+            const data = await res.json();
+            document.getElementById("output").textContent = data.output;
+        };
+    </script>
+</body>
+</html>
