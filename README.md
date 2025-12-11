@@ -232,6 +232,8 @@ curl -X POST http://127.0.0.1:5000/run \
   -H "Content-Type: application/json" \
   -d '{"code":"print(\"Hello World\")"}'
 ```
+![Screenshot](screenshots/safe%20code%20exe3.png)
+
 ## What This API Does or Build
 
 • A simple API where users send Python code, and your server runs it inside a Docker container and returns the result.
