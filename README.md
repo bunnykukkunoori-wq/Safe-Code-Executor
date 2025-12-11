@@ -256,12 +256,15 @@ curl -X POST http://127.0.0.1:5000/run \
   -H "Content-Type: application/json" \
   -d "{\"code\":\"x = 'a' * 1000000000\"}"
 ```
+![Screenshot](screenshots/safe%20code%20exe%205.png)
+
 ## 3. Internet access inside the container
 ```
 curl -X POST http://127.0.0.1:5000/run \
   -H "Content-Type: application/json" \
   -d "{\"code\":\"import requests\nrequests.get('http://evil.com')\"}"
 ```
+![Screenshot](screenshots/safe%20code%20exe%206.png)
 
 # Step 3 — Docker Security Experiments
 
@@ -271,12 +274,15 @@ curl -X POST http://127.0.0.1:5000/run \
   -H "Content-Type: application/json" \
   -d "{\"code\":\"print(open('/etc/passwd').read())\"}"
 ```
+![Screenshot](screenshots/safe%20code%20exe8.png)
+
 ## 2.Write test
 ```
 curl -X POST http://127.0.0.1:5000/run \
   -H "Content-Type: application/json" \
   -d "{\"code\":\"open('/app/script.py','w').write('hacked')\"}"
 ```
+![Screenshot](screenshots/safe%20code%20exe%209.png)
 
 # Docker Engine
 ```
