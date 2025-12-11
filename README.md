@@ -288,6 +288,7 @@ curl -X POST http://127.0.0.1:5000/run \
 ```
 docker ps
 ```
+![Docker Screenshot](screenshots/Docker.png)
 
 # Learning Outcomes
 
