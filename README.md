@@ -84,14 +84,21 @@ venv\Scripts\activate
 
 # Project Structure
 ```
-safe-code-executor/
+Safe-Code-Executor/
 │
-├── app.py
-├── requirements.txt
-├── Dockerfile
+├── screenshots/          # Contains all project images and screenshots
+│
 ├── templates/
-│ └── index.html
-├── README.md
+│   └── index.html        # Frontend HTML page
+│
+├── app.py                # Flask application entry point
+├── executor.py           # Code execution and sandbox logic
+├── Dockerfile            # Docker configuration for running the app
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+├── .gitignore            # Git ignore rules
+└── venv/                 # Local virtual environment (not committed to Git)
+
 ```
 
 # Prerequisites
