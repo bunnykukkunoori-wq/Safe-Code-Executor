@@ -220,7 +220,8 @@ python3 app.py
 python3 app.py
 ```
 ![alt text](safe2.png)
-![Safe Code Executor Screenshot](screenshots/safe-code-exe-1.png)
+
+![Safe Code Screenshot](images/safe-code-exe-2.png)
 
 
 
