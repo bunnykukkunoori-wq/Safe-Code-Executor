@@ -210,8 +210,9 @@ pip install -r requirements.txt
 ## Flask Installation Completed
 You can now run your API using:
 ```
-python app.py
+python3 app.py
 ```
+
 # Step 1: Make It Work
 
 ## Run the API
@@ -219,6 +220,8 @@ python app.py
 python3 app.py
 ```
 ![alt text](safe2.png)
+
+
 ## Test the API
 
 ## 1) Hello world
