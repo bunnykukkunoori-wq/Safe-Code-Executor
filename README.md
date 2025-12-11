@@ -221,8 +221,7 @@ python3 app.py
 ```
 ![alt text](safe2.png)
 
-![Safe Code Screenshot](images/safe-code-exe-2.png)
-
+![Screenshot](screenshots/safe%20code%20exe%202.png)
 
 
 ## Test the API
