@@ -226,7 +226,7 @@ python3 app.py
 ```
 python3 app.py
 ```
-![alt text](safe2.png)
+![App Screenshot](screenshots/app.png)
 
 ![Screenshot](screenshots/safe%20code%20exe%202.png)
 
